@@ -1,9 +1,9 @@
 body {
-    height: 100%;
-    width: 100%;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    height: 100%;
+    width: 100%;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     justify-content: center;
 }
 
-.card {
+.post {
     background-color: white;
     width: 500px;
 }
@@ -21,15 +21,15 @@ body {
 .post-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.icon-title {
+.post-title {
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
-.icon-header1 {
+.icon-header {
     margin-left: 10px;
     margin-right: 5px;
 }
@@ -44,6 +44,7 @@ body {
 
 .icon-header2 {
     margin-right: 10px;
+    padding-top: 15px;
 }
 
 .post-img {
@@ -59,10 +60,11 @@ img {
 .post-icons {
     display: flex;
     justify-content: space-between;
+    margin-top: 5%
 
 }
 
-.icons1 {
+.icon1 {
     margin-left: 15px;
 }
 
@@ -70,7 +72,7 @@ img {
     margin-right: 15px;
 }
 
-.text-container {
+.text-box {
     padding: 15px;
 }
 
